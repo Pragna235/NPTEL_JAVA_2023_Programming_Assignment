@@ -1,3 +1,5 @@
+//Consider First n even numbers starting from zero(0).Complete the code segment to calculate sum of  all the numbers divisible by 3 from 0 to n. Print the sum.
+
 import java.util.Scanner;
 public class Exercise1_3 {
        public static void main(String[] args) {
