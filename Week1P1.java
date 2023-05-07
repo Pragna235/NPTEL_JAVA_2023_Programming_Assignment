@@ -1,3 +1,5 @@
+//Complete the code segment to help Ragav , find the highest mark and average mark secured by him in "s" number of subjects.
+
 import java.util.Scanner;
 public class Exercise1_5{
     public static void main(String[] args) {
