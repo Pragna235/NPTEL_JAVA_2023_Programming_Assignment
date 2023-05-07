@@ -1,34 +1,33 @@
-//Complete the code segment to call the method  print() of class School first and then call print() method of class Student.
+//Complete the code segment to call the method  print() of class given class Printer to print the following.
+
+//--------------------------------
+//Hi! I am class SCHOOL
+//Hi! I class STUDENT.
+//--------------------------------
 
 //NOTE: Don't provide any INPUT in Sample Test Cases
-// This is the class named School
-class School { 
-    // This is a method in class School
+// This is the class named Printer
+class Printer { 
+    // This are the methods in class Printer
     public void print() { 
 		System.out.println("Hi! I class SCHOOL."); 
     } 
-} 
-// This is the class named Student
-class Student { 
-	// This is a method in class Student
-    public void print() { 
-		System.out.println("Hi! I am class STUDENT"); 
+    public void print(String s) { 
+		System.out.println(s); 
     } 
-}
+} 
 
-public class Question21{ 
-    public static void main(String args[]){
+public class Question22{ 
+    public static void main(String[] args) {    
 
-		// Creating object of class Student
-		Student student = new Student();
+// Create an object of class Printer
 
-		// Creating object of class School
-		School school = new School();
+Printer p = new Printer();
 
-		// Call 'print()' method of class School
-		school.print();
+// Call 'print()' methods for desired output
 
-                // Call 'print()' method of class Student 
-		student.print();
-     } 
+p.print();
+p.print("Hi! I am class STUDENT");
+
+    }
 }
